@@ -1,0 +1,96 @@
+body *{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.main{
+    margin: auto;
+    width: 60%;
+    padding: 70px;
+    
+}
+
+header{
+    text-align: center;
+    text-transform: uppercase;
+   margin: 0px 20px;
+   padding: 20px;
+    
+    color:rgb(30, 86, 112);
+    font-size: 28px;
+    
+}
+
+.center{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.center div{
+    width: 49%;
+  
+}
+
+form{
+    color:rgb(30, 86, 112);
+    displaY: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    padding: 30px;
+   
+}
+
+
+
+form div{
+    margin: auto;
+    justify-content: space-around;
+    display: flex;
+
+}
+
+h2{
+    font-size: 30px;
+}
+
+label{
+    color: black;
+    font-size: 20px;
+}
+
+input{
+    margin: 12px 50px;
+    padding: 5px 30px;
+    font-size: 20px;
+}
+
+
+header, form, footer{
+    background-color: rgb(169, 216, 238);
+}
+
+
+input[type="submit"], input[type="reset"]{
+    width: 100%;
+    background-color: rgb(30, 86, 112);
+    padding: 10px 30px;
+    border: none;
+    font-size: 20px;
+    color: white;
+    margin: 5px 60px;
+}
+
+footer{
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    margin: 0px 20px;
+    font-size: 30px;
+    letter-spacing: 5px;
+    color:rgb(30, 86, 112);
+}
